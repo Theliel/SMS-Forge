@@ -24,27 +24,28 @@ Already Implemented:
 + Auto-Delete SMS
 + Message Waiting Indicator: DCS or UDH
 + Silent/Ping SMS: Type 0 or MWI
-+ Status Report: See FAQ, with some limitations at the moment
++ Additional settings: SMSC, Valid-Period (Relative/Absolute/Enhanced), PID Selector,
+  Message Reference, Status Report (See FAQ), Reject Duplicate
 + National/International Number Support
 + Automatic charset detection (GSM7/160ch. UCS2/70ch)
-+ Automatic Light/Dark Theme. 
-+ Mediatek support
++ Light/Dark Theme Support
++ Qualcomm / Mediatek Support (probably other SoCs too)
++ Interface redesign
++ English / Spanish translations
 
 
 To-Do
 
-- Interface redesign
 - Translation into other languages
 - SMS RAW
 - SMS WAP
 - SMS for MMS Notification
 - Path-Reply
-- Valid-Period, Reject Duplicates, Message Reference, and SMSC
 - Perhaps a permanent way to work around the limitations of current status reports
 - SMS Compression
 - Long SMS (Concatenation)
-- More to come...
 - Lite/Test SMS Forge version
+- More to come...
 
 
 # Limitations
