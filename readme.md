@@ -25,7 +25,7 @@ Already Implemented:
 + Message Waiting Indicator: DCS or UDH
 + Silent/Ping SMS: Type 0 or MWI
 + Additional settings: SMSC, Valid-Period (Relative/Absolute/Enhanced), PID Selector,
-  Message Reference, Status Report (See FAQ), Reject Duplicate
+  Message Reference, Reply-Path, Status Report (See FAQ), Reject Duplicate
 + National/International Number Support
 + Automatic charset detection (GSM7/160ch. UCS2/70ch)
 + Light/Dark Theme Support
@@ -40,11 +40,9 @@ To-Do
 - SMS RAW
 - SMS WAP
 - SMS for MMS Notification
-- Path-Reply
 - Perhaps a permanent way to work around the limitations of current status reports
 - SMS Compression
 - Long SMS (Concatenation)
-- Lite/Test SMS Forge version
 - More to come...
 
 
