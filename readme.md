@@ -13,7 +13,21 @@ This is where SMS Forge was born, thanks, as I say, to the vision that the FMA d
 As will be explained later in the FAQ, each manufacturer/device may have different peculiarities that may cause SMS Forge to have some limitations, or be completely incompatible. The idea in the future is to explore different ways to try to maximize compatibility, possibly even including some devices without root. Similarly, when we send an SMS from SMS Forge, we can never guarantee or ensure how the receiving device will interpret it. For example, a Class 0 SMS on a Samsung/Xiaomi device with an A15 will be displayed directly on the screen, allowing us to see both the sender and the option to save it; on iOS, neither the name nor the option appears. Other types of SMS may be directly discarded by the device or have no effect.
 
 The project is far from being finalized; the idea is to continue implementing features, greater control over sending options, and seeking viable alternatives to some existing limitations. Initially, the project will likely be licensed commercially and published on Google Play (there's always the option to ban it). Depending on various factors, I may eventually change my mind and publish it completely openly.
+<p> </p>
 
+
+## Download SMS Forge
+
+Experience the true power of your device's modem.
+
+<div align="left">
+    <!-- Insignia oficial de Google Play -->
+    <a href="https://play.google.com/store/apps/details?id=es.theliel.smsforge">
+        <img alt='Disponible en Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="200"/>
+    </a>
+    <p style="margin-top: 10px; font-size: 14px; color: #888;">*Available coming soon</p>
+</div>
+<p> </p>
 
 # Implemented Features and To-Do
 
@@ -45,9 +59,10 @@ To-Do
 - Long SMS (Concatenation)
 - More to come...
 
+<p> </p>
 
 # Limitations
 
 As explained, there are some limitations that may prevent partial or complete use of SMS Forge. Some of these are easily remedied and are due to the inability to individually check the compatibility/behavior between the different devices currently on the market, different SoCs, and Basebands. I will soon publish a simple APK here so that anyone who wants to can install/check on their device whether it is potentially compatible or not, and if not, they can attach a report to see if it can be implemented.
 
-Currently, it has been tested on several devices with Qualcomm SoCs of different generations, and some MediaTek devices. MediaTek devices are a bit more complex, and the logic still needs to be fully implemented. Even so, minor adjustments may be necessary to cover more devices.
+Currently, it has been tested on several devices with Qualcomm SoCs of different generations, and some MediaTek devices. MediaTek devices are a bit more complex, and although it's fully functional in our tests, you may encounter some bugs. Please feel free to open a bug report if you find any issues.
